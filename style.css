@@ -1,17 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
 body{
-  font-family:'Poppins', sans-serif;
+  width: 100%;
+  height:100%;
+  font-family: 'Work Sans', sans-serif;
+}
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey
+  height:100vh;
+}
+.content{
+  background-color: #fff;
+  border-radius: 15px;
+width: 1100px;
+  height:80px;
+  display:flex;
+  justify-content: space-between;
+  border-radius: 0 20px;
   
 }
-main{
-  min-height:100vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background-color: #DADFE8;
+.content::before{
+  content:"";
+  position: absolute;
+  background-color: rgb(238,192,83);
+  width:50%;
+  height:100%;
+  border-radius: 20px 0;
 }
-.pokedex{
-  display:flex;
-  gap:30px;
-  padding: 30px 0;
+.first-colum{
+  display: flex;
+  z-index: 10;
+}
+
+
+
+.list-links{
+  display: flex;
   
+
+}
+.links{
+  padding:10px;
+}
+.links li{
+  
+}
+.cabecalho{
+  text-align: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.list-links .links a{
+  text-decoration: none;
+ color:rgb(35,39,80);
+ font-size: 14px;
+}
+.btn{
+  border:none;
+  background-color:rgb(58,205,175);
+  color:white;
+  width: 120px;
+  height: 29px;
+  border-radius: 9px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor:pointer;
+}
+.container-text .description{
+float: right;
+padding-top: 20px;
+padding-left:80px;
+text-align: center;
+}
+h2{
+  color:rgb(35,39,80) ;
+  font-size: 40px;
+  
+}
+ #p1 {
+  color:rgb(243,122,89);
+  font-size: 25px;
+}
+#p2{
+  font-size:13px;
+  margin-top:20px;
+  color:rgb(35,39,80)
+  
+}
+.container-avatar img{
+  display:flex;
+}
+
+#input1 {
+  margin-bottom:10px;
+  
+}
+#input2 {
+  margin-bottom:10px;
+ 
+}
+.conteudo-formulario .form input{
+  padding: 5px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(232,232,232);
+  color: rgb(35,39,80);
+  width: 270px;
+  align-items: ;
+}
+
+.btn-form{
+  background-color:rgb(35,39,80) ;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 29px;
+  border-radius: 9px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor:pointer;
+  align-items: center;
 }
