@@ -1,0 +1,33 @@
+@media screen and (max-width:768px){
+    
+    header{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteudo-title h2{
+        font-size: 40px;
+    }
+    .conteudo-title p{
+        font-size: 15px;
+    }
+    img{
+        display: none;
+    }
+    form{
+        margin: 0 auto;
+    }
+    input{
+        align-self: center;
+    }
+    #links btn{
+        align-self: center;
+        justify-content: center;
+        float: right;
+
+    }
+}
